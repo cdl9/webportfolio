@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/webportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/webportfolio/static/js/main.6320cf6a.js",
+    "main.css": "/webportfolio/static/css/main.33b4e1b3.css",
+    "main.js": "/webportfolio/static/js/main.ba8d6d59.js",
     "static/js/787.0c33adce.chunk.js": "/webportfolio/static/js/787.0c33adce.chunk.js",
+    "static/media/chris.jpg": "/webportfolio/static/media/chris.2a2db9beb93d66bbf396.jpg",
+    "static/media/NYCdesign.png": "/webportfolio/static/media/NYCdesign.4bf42f038500df5a81ee.png",
+    "static/media/AboutBG1.png": "/webportfolio/static/media/AboutBG1.9d25c1bd2931e8caed46.png",
     "static/media/logo.svg": "/webportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/webportfolio/index.html",
-    "main.073c9b0a.css.map": "/webportfolio/static/css/main.073c9b0a.css.map",
-    "main.6320cf6a.js.map": "/webportfolio/static/js/main.6320cf6a.js.map",
+    "main.33b4e1b3.css.map": "/webportfolio/static/css/main.33b4e1b3.css.map",
+    "main.ba8d6d59.js.map": "/webportfolio/static/js/main.ba8d6d59.js.map",
     "787.0c33adce.chunk.js.map": "/webportfolio/static/js/787.0c33adce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6320cf6a.js"
+    "static/css/main.33b4e1b3.css",
+    "static/js/main.ba8d6d59.js"
   ]
 }
