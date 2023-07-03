@@ -1,0 +1,30 @@
+.HomeBody{
+    height: 75vh;
+    width: 110vh;
+    background-color: #F9F4F4;
+    padding:50px;
+    margin:auto;
+}
+.CoverDesign{
+    background-image: url("../Images/NYCdesign.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 70%;
+    width:65%;
+    float: right; 
+    
+}
+.NameTitle{
+    color: #4A6163;
+    font-size:6.0em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+}
+.Subtitle{
+    color: #818181;
+    font-size:2.5em;
+    font-family: 'Open Sans', sans-serif;
+    margin:10px;
+    margin-top: 30px;
+}
+

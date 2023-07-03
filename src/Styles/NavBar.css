@@ -1,0 +1,39 @@
+body {
+    margin:0;
+    height: 100vh;
+}
+
+.navBar {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    width: 100%;
+    background-color: #333;
+    top:0;
+    left: 0;
+    border-bottom: 3px solid #FFC94B;
+}
+
+.navBar__link {
+    margin: 1em;
+    font-size: 1.0em;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: .1em;
+    text-indent: .2em;
+    color: #F9F4F4;
+    border-bottom: 3px solid transparent;
+}
+  
+.navBar__link:hover {
+    transform: translateY(-2px);
+    color: #F17A7E;
+}
+  
+.navBar__link-active {
+    /*padding-bottom: 5px;
+    border-bottom: 3px solid #FFC94B;*/
+    transition: border-bottom .5s ease-in-out;
+    color: #FFC94B;
+}

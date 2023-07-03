@@ -1,0 +1,59 @@
+:root{
+    --main-bt-color:#F9A66C;
+    --light-font-color:#F9F4F4;
+}
+.SubmitButton{
+    height:40px;
+    width:180px;
+    border:none;
+    background:var(--main-bt-color);
+    color:var(--light-font-color);
+    position:relative;
+    padding-top:15px;
+    padding-bottom:40px;
+    transition:800ms ease all;
+    outline:none;
+    cursor: pointer;
+    font-size:20px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    /*transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);*/
+}
+.SubmitButton:hover{
+    background:transparent;
+    color:var(--main-bt-color);
+    border-left:2px solid var(--main-bt-color);
+    border-right:2px solid var(--main-bt-color);
+  }
+.SubmitButton:before,.SubmitButton:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: var(--main-bt-color);
+    transition:400ms ease all;
+  }
+   
+.SubmitButton:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+   
+.SubmitButton:hover:before,.SubmitButton:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+.SubmitButton:focus{
+    outline:none;
+    
+}
+.SubmitButton:active{
+     
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(1.02, 1.02);
+}
